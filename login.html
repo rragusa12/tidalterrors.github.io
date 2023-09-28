@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - OpenTimeTracker</title>
+    <link rel="stylesheet" href="./style.css"> <!-- Link an external CSS file for styling -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>OpenTimeTracker</h1>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <!-- Add a link to the login page -->
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#contact">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Login Form Section -->
+    <section class="login">
+        <div class="container">
+            <h2>Login to OpenTimeTracker</h2>
+            <form action="login_process.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Three college students embarking on a journey to create an empowering time management application. Driven by a shared motivation to innovate and address growing real-world challenges.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 OpenTimeTracker</p>
+        </div>
+    </footer>
+</body>
+</html>
